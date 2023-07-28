@@ -303,3 +303,6 @@ def classify_animals(
     
     # Delete checkpoints
     shutil.rmtree(path_dict['checkpoint_dir'])
+
+    from csv_to_json import CSV_JSON
+    CSV_JSON()

@@ -171,7 +171,7 @@ that affect the efficiency and accuracy of the classifier.
 	will be cropped and saved to the directory given by working_data_dir. If False,
 	the cropped images will be deleted after each batch.
 	
-- **md_thr** (float), default 0.2: Threshold value for the confidence ratings of
+- **md_thr** (float), default 0.1: Threshold value for the confidence ratings of
 	MegaDetector's detections. Only bounding boxes with a confidence
 	rating above the threshold will be cropped and analysed. A higher
 	threshold means that detections are more likely to be of an animal

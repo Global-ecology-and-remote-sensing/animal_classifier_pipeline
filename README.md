@@ -47,7 +47,7 @@ from classify_animals.main import classify_animals
 classify_animals(
     bb_results_path = 'path\to\MegaDetector\output\json\string', 
     image_dir = 'path\to\raw\images',
-    model_path = 'path\to\trained\model'
+    model_path = 'path\to\trained\model',
     md_thr=0.1 #Animal Classifier Threshold 
 )
 ```

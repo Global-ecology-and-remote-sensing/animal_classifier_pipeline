@@ -225,7 +225,7 @@ config.IMAGE_SIZE = (100, 100) # Size of images that are inputted to the model
 classy_func(
     bb_results_path = 'path\to\MegaDetector\output\json\string', 
     image_dir = 'path\to\raw\images',
-    model_path = 'path\to\trained\model'
+    model_path = 'path\to\trained\model',
     md_thr=0.1 #Animal Classifier Threshold 
 )
 ```
@@ -276,7 +276,7 @@ preprocess_image.main = lambda x : x # Leave images unchanged
 classy_func(
     bb_results_path = 'path\to\MegaDetector\output\json\string', 
     image_dir = 'path\to\raw\images',
-    model_path = 'path\to\trained\model'
+    model_path = 'path\to\trained\model',
     md_thr=0.1 #Animal Classifier Threshold 
 )
 ```

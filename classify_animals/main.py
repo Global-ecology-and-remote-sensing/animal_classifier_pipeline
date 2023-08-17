@@ -20,9 +20,9 @@ def classify_animals(
     bb_results_path, 
     image_dir, 
     model_path, 
+    md_thr,
     working_data_dir = None, 
-    keep_crops: bool = True ,
-    md_thr = 0.2, 
+    keep_crops: bool = True , 
     ent_thr = None, 
     batch_size: int = 32 , 
     classifier_batch_size: int = None , 
@@ -303,3 +303,6 @@ def classify_animals(
     
     # Delete checkpoints
     shutil.rmtree(path_dict['checkpoint_dir'])
+
+    from csv_to_json import CSV_JSON
+    CSV_JSON()
